@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   }
+
+body{
+    height: 100%;
+    background-color: rgb(254, 255, 255);
+    background-size: 500% 200%;
+    padding: 10px;
+    
+}
+header{
+    margin-bottom: 20px;
+    position: sticky;
+    top:0%;
+}  
+
+
+h1{
+   color: black;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 60px;
+   border:inset black;
+   display: block;
+   background-image: url(./imagenes/paisaje2.jpg);
+   display:flex;
+   justify-content: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position:center center;
+   padding: 20px;
+  
+
+}
+
+.contenedor{
+    height: 10vh;
+    margin: 0;
+
+
+}
+#inicio {
+    text-decoration: underline overline;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+    padding: 30px;
+    color: rgb(32, 65, 12);
+    display: flex;
+    justify-content: center;
+    border:0;
+}
+.diferente{
+   
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-transform:inherit;
+    border: 10px  rgba(123, 196, 160, 0.665) outset;
+}
+.imagenes h2{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+
+}
+
+.imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.imagenes img{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0,0,.75);
+}
+
+.menu{
+    list-style: none;
+    padding: 0px;
+    background:#092327;
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+  
+   
+}
+ .menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    
+ }
+.menu li{
+    display: inline-block;
+    text-align:center;
+} 
+.menu li a:hover{
+    background: #1d73ac;
+}
+.caja  {
+   font-family: Arial, Helvetica, sans-serif;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.form{
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   
+
+}
+label{
+    color: rgb(18, 44, 22);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input , textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(189, 250, 197);
+    border: 2px solid;
+    color: #071d20;
+    outline:none ;
+}
+input::placeholder, textarea::placeholder{
+    color: rgb(167, 197, 163);
+}
+.form-poli a{
+    color: aquamarine;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.bnt{
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(25,254,0, 0.4);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(15, 95, 62);
+
+}

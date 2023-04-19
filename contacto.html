@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link href="estilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>TURISMO JUMP MENDOZA</h1>
+        <nav>
+            <div class=contenedor>
+            <ul class="menu">
+                <li><a href="./index.html">inicio</a></li>
+                <li><a href="./nosotros.html">nosotros</a></li>
+                <li><a href="servicios-turismo.html">servicio de turismo</a></li>
+                <li><a href="contacto">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="caja">
+     <form > 
+     <div class="formulario">
+        <label for="name">Nombre y Apellido</label>
+        <input type="text"  name="nombre_apellido" id="name" placeholder="Nombre">
+
+        <label for="phone"> Telefono</label>
+        <input type="tel" name="number" id="phone" placeholder="Telefono">
+
+        <label for="email" > Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <label for="mensaje" >Dejenos su consulta</label>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <div class="form-poli">
+            <a href="#">Politica de privacidad</a>
+            <a href="#">Terminos y condiciones</a>
+
+        </div>
+        <input class="btn" type="submit" value="Enviar">
+    </div>    
+
+     </form>
+    </main>
+</body>
+</html>
