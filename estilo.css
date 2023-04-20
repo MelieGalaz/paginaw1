@@ -43,18 +43,8 @@ h1{
 
 
 }
-#inicio {
-    text-decoration: underline overline;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 50px;
-    padding: 30px;
-    color: rgb(32, 65, 12);
-    display: flex;
-    justify-content: center;
-    border:0;
-}
+
+
 .diferente{
    
     font-weight: bold;
@@ -68,24 +58,30 @@ h1{
     font-size: 30px;
     text-align: center;
     margin: 20px 0 15px 0;
-    font-weight: 300;
+    font-weight:bolder;
+    
 
 }
 
 .imagenes{
-    display: flex;
-    width: 85%;
+    width:50vw;
     margin: auto;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    
 }
 .imagenes img{
-    width: 32%;
-    position: relative;
-    height: 250px;
-    margin-bottom: 5px;
-    box-shadow: 0px 0px 3px 0px rgb(0, 0,0,.75);
+    width:100%;
+    border-radius: 15px;
+    box-shadow:#071d20;
+}
+ .estacion{
+    text-align: center;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .menu{
