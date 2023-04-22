@@ -12,7 +12,7 @@ body{
     
 }
 .montañas{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     position: sticky;
     top:0%;
 }  
@@ -23,7 +23,7 @@ body{
    font-family: 'Merriweather', serif;
    text-transform: uppercase;
    text-align: center;
-   font-size: 60px;
+   font-size: 50px;
    border:inset black;
    display: block;
    background-image: url(./imagenes/paisaje2.jpg);
@@ -33,7 +33,7 @@ body{
    background-size: cover;
    background-attachment: fixed;
    background-position:center center;
-   padding: 40px;
+   padding:15px;
   
 
 }
@@ -100,7 +100,7 @@ body{
  .menu li a{
     text-decoration: none;
     color: aliceblue;
-    padding: 20px;
+    padding: 10px;
     display: block;
     
  }
@@ -113,7 +113,7 @@ body{
 }
 .caja  {
    font-family: Arial, Helvetica, sans-serif;
-   min-height: 100vh;
+   min-height: 50vh;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -126,11 +126,11 @@ h2{
    
 }
 .form{
-    padding: 30px; 
+    padding: 10px; 
     box-shadow: 0 0 20px rgba(0,0,0, 0.2);
-     border-radius: 20px; 
+    border-radius: 10px; 
     text-align: center;
-    width: 340px; 
+    width: 40px; 
   
 }
 
@@ -138,8 +138,11 @@ h2{
     display: flex;
     flex-direction: column;
     text-align: center;
-    top: 1000px;
-   
+    top: 0px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 30px;
+    background-image: url(./imagenes/paisaje2.jpg);
 
 }
 label{
@@ -163,13 +166,13 @@ input::placeholder, textarea::placeholder{
 .form-poli, a {
     color: rgb(10, 14, 13);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 0px;
     text-decoration: none;
 }
 .envio{
     font-size: 16px;
     color:  rgb(10, 14, 13);
-    border: 0;
+    border: 10px;
     border-radius: 25px;
     border: 2px solid;
     columns:#071d20 ;
@@ -179,4 +182,35 @@ input::placeholder, textarea::placeholder{
 .envio:hover{
     background-color: rgb(101, 116, 139);
 
+}
+#carouselExampleControls{
+    width:50vw;
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    
+}
+.bodega{
+    text-align: center;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#carouselExampleControls1{
+    width:50vw;
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    
+}
+#carouselExampleControls2{
+    width:50vw;
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    
 }
