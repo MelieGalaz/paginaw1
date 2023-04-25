@@ -11,7 +11,7 @@ body{
     padding: 10px;
     
 }
-.container-fluid .montanas{
+ .montanas{
     margin-bottom: 20px;
     position: sticky;
     top:0%;
@@ -113,12 +113,11 @@ body{
 }
 .caja  {
    font-family: Arial, Helvetica, sans-serif;
-   min-height: 50vh;
+   min-height: 10vh;
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
+  
 }
 h2{
     text-align: center;
@@ -130,7 +129,8 @@ h2{
     box-shadow: 0 0 20px rgba(0,0,0, 0.2);
     border-radius: 10px; 
     text-align: center;
-    width: 40px; 
+    width: 500px; 
+  
   
 }
 
@@ -141,7 +141,7 @@ h2{
     top: 0px;
     border-style: solid;
     border-width: 5px;
-    padding: 30px;
+    padding: 10px;
     background-image: url(./imagenes/paisaje2.jpg);
 
 }
@@ -163,9 +163,9 @@ input , textarea {
 input::placeholder, textarea::placeholder{
     color: rgb(167, 197, 163);
 }
-.form-poli, a {
+.form-poli a {
     color: rgb(10, 14, 13);
-    font-size: 25px;
+    font-size: xx-small;
     font-weight: 0px;
     text-decoration: none;
 }
@@ -221,4 +221,11 @@ input::placeholder, textarea::placeholder{
     min-width: 200px;
     margin: auto;
     z-index: -100
+}
+@media (max-width:320px) {
+    .cont-mobile{
+        display: flex;
+  
+
+    }
 }
