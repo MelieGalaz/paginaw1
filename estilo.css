@@ -11,7 +11,7 @@ body{
     padding: 10px;
     
 }
-.montañas{
+.container-fluid .montanas{
     margin-bottom: 20px;
     position: sticky;
     top:0%;
@@ -189,7 +189,14 @@ input::placeholder, textarea::placeholder{
     max-width: 500px;
     min-width: 200px;
     margin: auto;
+    z-index: -100;
     
+}
+.titulo-carrusel{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration:underline;
 }
 .bodega{
     text-align: center;
@@ -204,6 +211,7 @@ input::placeholder, textarea::placeholder{
     max-width: 500px;
     min-width: 200px;
     margin: auto;
+    z-index: -100
     
 }
 #carouselExampleControls2{
@@ -212,5 +220,5 @@ input::placeholder, textarea::placeholder{
     max-width: 500px;
     min-width: 200px;
     margin: auto;
-    
+    z-index: -100
 }
