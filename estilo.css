@@ -1,44 +1,45 @@
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-   }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
+body {
     height: 100%;
-    background: linear-gradient(rgb(48, 48, 142),white);
+    background: linear-gradient(rgb(48, 48, 142), white);
     background-size: 500% 200%;
     padding: 10px;
-    
+
 }
- .montanas{
+
+.montanas {
     margin-bottom: 20px;
     position: sticky;
-    top:0%;
-}  
+    top: 0%;
+}
 
 
-.titulo{
-   color: black;
-   font-family: 'Merriweather', serif;
-   text-transform: uppercase;
-   text-align: center;
-   font-size: 50px;
-   border:inset black;
-   display: block;
-   background-image: url(./imagenes/paisaje2.jpg);
-   display:flex;
-   justify-content: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   background-position:center center;
-   padding:15px;
-  
+.titulo {
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    border: inset black;
+    display: block;
+    background-image: url(./imagenes/paisaje2.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 15px;
+
 
 }
 
-.contenedor{
+.contenedor {
     height: 10vh;
     margin: 0;
 
@@ -46,95 +47,104 @@ body{
 }
 
 
-.diferente{
-   
+.diferente {
+
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    text-transform:inherit;
+    text-transform: inherit;
     border: inset black;
     background: rgb(99, 117, 154);
 }
-.imagenes h2{
-    font-family: 'Roboto', sans-serif; 
+
+.imagenes h2 {
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
     margin: 20px 0 15px 0;
-    font-weight:bolder;
-    
+    font-weight: bolder;
+
 
 }
 
-.imagenes{
-    width:50vw;
+.imagenes {
+    width: 50vw;
     margin: auto;
     max-width: 1000px;
     min-width: 320px;
     margin: auto;
-    
+
 }
-.imagenes img{
-    width:100%;
+
+.imagenes img {
+    width: 100%;
     border-radius: 15px;
-    box-shadow:#071d20;
+    box-shadow: #071d20;
 }
- .estacion{
+
+.estacion {
     text-align: center;
-    padding:15px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
 
-.menu{
+.menu {
     list-style: none;
     padding: 0px;
-    background:#092327;
-    width:100%;
-    margin:auto;
+    background: #092327;
+    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
-  
-   
+
+
 }
- .menu li a{
+
+.menu li a {
     text-decoration: none;
     color: aliceblue;
     padding: 10px;
     display: block;
-    
- }
-.menu li{
-    display: inline-block;
-    text-align:center;
-} 
-.menu li a:hover{
-    background: #1d73ac;
-}
-.caja  {
-   font-family: Arial, Helvetica, sans-serif;
-   min-height: 10vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-  
-}
-h2{
-    text-align: center;
-    font-size: 35px;
-   
-}
-.form{
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
-    border-radius: 10px; 
-    text-align: center;
-    width: 500px; 
-  
-  
+
 }
 
-.formulario{
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #1d73ac;
+}
+
+.caja {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.form {
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+
+
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -145,87 +155,101 @@ h2{
     background-image: url(./imagenes/paisaje2.jpg);
 
 }
-label{
+
+label {
     color: rgb(18, 44, 22);
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-input , textarea {
+
+input,
+textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color:white;
+    background-color: white;
     border: 2px solid;
     color: #071d20;
-    outline:none ;
+    outline: none;
 }
-input::placeholder, textarea::placeholder{
+
+input::placeholder,
+textarea::placeholder {
     color: rgb(167, 197, 163);
 }
+
 .form-poli a {
     color: rgb(10, 14, 13);
     font-size: xx-small;
     font-weight: 0px;
     text-decoration: none;
 }
-.envio{
+
+.envio {
     font-size: 16px;
-    color:  rgb(10, 14, 13);
+    color: rgb(10, 14, 13);
     border: 10px;
     border-radius: 25px;
     border: 2px solid;
-    columns:#071d20 ;
+    columns: #071d20;
     cursor: pointer;
 
 }
-.envio:hover{
+
+.envio:hover {
     background-color: rgb(101, 116, 139);
 
 }
-#carouselExampleControls{
-    width:50vw;
+
+#carouselExampleControls {
+    width: 50vw;
     margin: auto;
     max-width: 500px;
     min-width: 200px;
     margin: auto;
     z-index: -100;
-    
+
 }
-.titulo-carrusel{
-    font-size: 30px;
+
+.titulo-carrusel {
+    font-size: 25px;
     text-align: center;
     font-weight: bolder;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-.bodega{
+
+.bodega {
     text-align: center;
-    padding:15px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
-#carouselExampleControls1{
-    width:50vw;
-    margin: auto;
-    max-width: 500px;
-    min-width: 200px;
-    margin: auto;
-    z-index: -100
-    
-}
-#carouselExampleControls2{
-    width:50vw;
+
+#carouselExampleControls1 {
+    width: 50vw;
     margin: auto;
     max-width: 500px;
     min-width: 200px;
     margin: auto;
     z-index: -100
 }
+
+#carouselExampleControls2 {
+    width: 50vw;
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    z-index: -100
+}
+
 @media (max-width:320px) {
-    .cont-mobile{
+    .cont-mobile {
         display: flex;
-  
+
+
 
     }
 }
