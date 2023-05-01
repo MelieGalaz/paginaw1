@@ -11,6 +11,27 @@ body {
     padding: 10px;
 
 }
+.float{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #25d366;
+    bottom: 20px;
+    right: 7px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    transition: all 300ms;
+    
+}
+.fa-whatsapp{
+    font-size: 20px;
+}
+.float:hover{
+    background-color: #90bea1;
+    transform: scale(1.15);
+}
 .cont-mobile{
     display: flex;
 }
@@ -34,13 +55,13 @@ body {
     border: inset black;
     display: block;
     background-image: url(./imagenes/paisaje2.jpg);
+    padding: 15px;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    padding: 15px;
 
 
 }
@@ -79,6 +100,7 @@ body {
     max-width: 1000px;
     font-size: 12px;
     min-width: 262px;
+  
 
 }
 
@@ -87,6 +109,23 @@ body {
     border-radius: 15px;
     box-shadow: #071d20;
 }
+.imagen{
+    animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
+
 .imagenes .mendo-bella{
    font-size: 15px;
 }
@@ -164,6 +203,9 @@ h3 {
     border-width: 5px;
     padding: 10px;
     background-image: url(./imagenes/paisaje2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
 
@@ -298,6 +340,16 @@ textarea::placeholder {
     .estacion{
         font-size:20px;
     }
+    .float{
+        width: 40px;
+        height: 40px;
+        bottom: 30px;
+        right: 40px;
+    }
+    .fa-whatsapp{
+        font-size: 40px;
+    }    
+
 }
 @media (min-width:1200px) {
     .titulo{
