@@ -279,6 +279,15 @@ textarea::placeholder {
     font-size:18px;
     font-weight: bolder;
 }
+.footer{
+    display: block;
+    text-align: center;
+    font-size: 8px;
+    padding: 30px;
+    margin-top:30px;
+    margin-bottom: 0px;
+}
+
 
 @media (min-width:768px) {
     .cont-mobile{
@@ -328,7 +337,10 @@ textarea::placeholder {
     }
     .fa-whatsapp{
         font-size: 40px;
-    }    
+    }   
+    .footer{
+        font-size: 12px;
+    } 
 
 }
 @media (min-width:1200px) {
@@ -366,6 +378,9 @@ textarea::placeholder {
     }
     .estacion{
         font-size: 22px;
+    }
+    .footer{
+        font-size: 15px;
     }
 }
 
